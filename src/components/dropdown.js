@@ -8,7 +8,8 @@ export default function Dropdown(props) {
   return (
     <div>
       <label for="dropdown">Choose an animal: </label>
-      <select newClass="dropdown" id="dropdown" value={props.value} onChange={e => props.onChange(e.target.value)}>
+      <select newClass="dropdown" id="dropdown" value={props.value} 
+        onChange={e => props.onChange(e.target.value)}>
         {optionItems}
       </select>
     </div>

@@ -10,9 +10,13 @@ export default function NextButton(props) {
   const firstAnimal = props.pictures[0];
 
   if (!nextAnimal) {
-    return <button type="button" name="next-button" id="next-button" newClass="next-button" onClick={e => props.onClick(firstAnimal.id)} >Next Animal</button>;
+    return <button type="button" name="next-button" id="next-button"
+      newClass="next-button" onClick={e => props.onClick(firstAnimal.id)}>
+      Next Animal</button>;
   } else {
-    return <button type="button" name="next-button" id="next-button" newClass="next-button" onClick={e => props.onClick(nextAnimal.id)} >Next Animal</button>;
+    return <button type="button" name="next-button" id="next-button" 
+      newClass="next-button" onClick={e => props.onClick(nextAnimal.id)}>
+      Next Animal</button>;
   }
   
 }

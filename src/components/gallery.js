@@ -4,6 +4,7 @@ import Picture from './picture';
 import RandomButton from './random-button';
 import PrevButton from './prev-button';
 import NextButton from './next-button';
+import VerticalFlip from './vertical-flip';
 
 export default class Gallery extends React.Component {
   constructor(props) {
@@ -25,6 +26,8 @@ export default class Gallery extends React.Component {
         <PrevButton pictures={pictures} onClick={value => this.setState({value})} value={this.state.value}/>
         <RandomButton pictures={pictures} onClick={value => this.setState({value})}/>
         <NextButton pictures={pictures} onClick={value => this.setState({value})} value={this.state.value} />
+        <br></br>
+        <VerticalFlip />
       </div>
     );}
 }
