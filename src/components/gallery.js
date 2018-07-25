@@ -16,7 +16,7 @@ export default class Gallery extends React.Component {
     return (
       <div>
         <Dropdown onChange={value => this.setState({value})}/>
-        <Picture pictures={pictures}/>
+        <Picture pictures={pictures} value={this.state.value}/>
       </div>
 		)}
 }
