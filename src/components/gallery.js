@@ -39,9 +39,9 @@ export default class Gallery extends React.Component {
         <br></br>
         <Picture pictures={pictures} value={this.state.value} flipped={this.state.flipped} hue={this.state.hue}/>
         <br></br>
-        <CycleButton pictures={pictures} name="prev-button" onClick={value => this.setState({value})} value={this.state.value} />
+        <CycleButton pictures={pictures} name="prev-button" text="Previous" onClick={value => this.setState({value})} value={this.state.value} />
         <RandomButton pictures={pictures} onClick={value => this.setState({value})}/>
-        <CycleButton pictures={pictures} name="next-button" onClick={value => this.setState({value})} value={this.state.value} />
+        <CycleButton pictures={pictures} name="next-button" text="Next" onClick={value => this.setState({value})} value={this.state.value} />
         <br></br>
         <CSSButton name="flip-button" text="Vertical Flip" onClick={() => this.changeFlip()} />
         <CSSButton name="hue-button" text="Rotate Hue" onClick={() => this.rotateHue()} />

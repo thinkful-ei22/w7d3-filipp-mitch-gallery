@@ -19,11 +19,11 @@ export default function CycleButton(props) {
   if (!upAnimal) {
     return <button type="button" name={props.name} id={props.name} 
       className={props.name} onClick={() => props.onClick(downAnimal.id)}>
-      Previous Animal</button>;
+      {props.text}</button>;
   } else {
     return <button type="button" name={props.name} id={props.name} 
       className={props.name} onClick={() => props.onClick(upAnimal.id)}>
-      Previous Animal</button>;
+      {props.text}</button>;
   }
   
 }
