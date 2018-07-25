@@ -8,6 +8,8 @@ body {
 img {
 	height: 400px;
 	width: 600px;
+	-webkit-transition: transform 2s;
+    transition: transform 2s;
 }
 
 .flip {

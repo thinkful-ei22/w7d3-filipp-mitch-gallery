@@ -11,13 +11,24 @@ export default class Gallery extends React.Component {
     super(props);
     this.state = {
       value: 'Cat',
-      flipped: false
+      flipped: false,
+      hueRotate: 0
     };
   }
 
   changeFlip() {
     const currentState = this.state.flipped;
     this.setState({flipped: !currentState});
+  }
+
+  rotateHue() {
+    const currentHue = this.state.hueRotate;
+    this.setState({hueRotate: currentHue + 90});
+  }
+
+  addDeg() {
+    const currentHue = this.state.hueRotate;
+    this.setState({hueRotate: `${currentHue}deg`});
   }
   
   render() {
