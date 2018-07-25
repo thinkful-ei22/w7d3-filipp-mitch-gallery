@@ -5,7 +5,7 @@ export default function RandomButton(props) {
 
   return (
     <button type="button" name="randomize" id="randomize" 
-      newClass="randomize" onClick={() => props.onClick(random.id)}>
+      className="randomize" onClick={() => props.onClick(random.id)}>
       Randomize!
     </button>
   );

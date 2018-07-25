@@ -4,8 +4,7 @@ import Picture from './picture';
 import RandomButton from './random-button';
 import PrevButton from './prev-button';
 import NextButton from './next-button';
-import VerticalFlip from './vertical-flip';
-import HueRotate from './hue-rotate';
+import CSSButton from './cssbutton';
 
 export default class Gallery extends React.Component {
   constructor(props) {
@@ -45,8 +44,8 @@ export default class Gallery extends React.Component {
         <RandomButton pictures={pictures} onClick={value => this.setState({value})}/>
         <NextButton pictures={pictures} onClick={value => this.setState({value})} value={this.state.value} />
         <br></br>
-        <VerticalFlip onClick={() => this.changeFlip()} />
-        <HueRotate onClick={() => this.rotateHue()} />
+        <CSSButton name="flip-button" text="Vertical Flip" onClick={() => this.changeFlip()} />
+        <CSSButton name="hue-button" text="Rotate Hue" onClick={() => this.rotateHue()} />
       </div>
     );}
 }

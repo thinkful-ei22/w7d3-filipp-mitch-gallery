@@ -11,11 +11,11 @@ export default function PrevButton(props) {
 
   if (!prevAnimal) {
     return <button type="button" name="prev-button" id="prev-button" 
-      newClass="prev-button" onClick={() => props.onClick(lastAnimal.id)}>
+      className="prev-button" onClick={() => props.onClick(lastAnimal.id)}>
       Previous Animal</button>;
   } else {
     return <button type="button" name="prev-button" id="prev-button" 
-      newClass="prev-button" onClick={() => props.onClick(prevAnimal.id)}>
+      className="prev-button" onClick={() => props.onClick(prevAnimal.id)}>
       Previous Animal</button>;
   }
   

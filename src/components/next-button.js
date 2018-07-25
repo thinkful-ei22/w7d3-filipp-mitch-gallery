@@ -11,11 +11,11 @@ export default function NextButton(props) {
 
   if (!nextAnimal) {
     return <button type="button" name="next-button" id="next-button"
-      newClass="next-button" onClick={() => props.onClick(firstAnimal.id)}>
+      className="next-button" onClick={() => props.onClick(firstAnimal.id)}>
       Next Animal</button>;
   } else {
     return <button type="button" name="next-button" id="next-button" 
-      newClass="next-button" onClick={() => props.onClick(nextAnimal.id)}>
+      className="next-button" onClick={() => props.onClick(nextAnimal.id)}>
       Next Animal</button>;
   }
   
