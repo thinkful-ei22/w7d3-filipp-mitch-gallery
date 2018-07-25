@@ -7,10 +7,10 @@ import NextButton from './next-button';
 
 export default class Gallery extends React.Component {
   constructor(props) {
-      super(props);
-  this.state = {
-    value: ''
-  }
+    super(props);
+    this.state = {
+      value: 'Cat'
+    };
   }
   
   render() {
@@ -18,7 +18,7 @@ export default class Gallery extends React.Component {
 
     return (
       <div>
-        <Dropdown onChange={value => this.setState({value})}/>
+        <Dropdown pictures={pictures} value={this.state.value} onChange={value => this.setState({value})}/>
         <br></br>
         <Picture pictures={pictures} value={this.state.value}/>
         <br></br>
@@ -26,5 +26,5 @@ export default class Gallery extends React.Component {
         <RandomButton pictures={pictures} onClick={value => this.setState({value})}/>
         <NextButton pictures={pictures} onClick={value => this.setState({value})} value={this.state.value} />
       </div>
-		)}
+    );}
 }
