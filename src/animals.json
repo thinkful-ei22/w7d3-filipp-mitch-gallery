@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dog",
+    "src": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+    "alt": "Grey cat looking at the camera"
+  },
+  {
+    "id": "dog",
+    "src": "https://static.boredpanda.com/blog/wp-content/uploads/2018/07/dog-photographer-of-the-year-2018-winners-the-kennel-club-10-5b51978976e1c__700.jpg",
+    "alt": "Small dog popping a bubble."
+  },
+  {
+    "id": "horse",
+    "src": "http://www.abc.net.au/news/image/7247492-3x4-700x933.jpg",
+    "alt": "A horse in a suit."
+  },
+  {
+    "id": "shark",
+    "src": "https://img2.cgtrader.com/items/719187/5db122a57a/large/hammerhead-shark-3d-model-low-poly-animated-rigged-max.jpg",
+    "alt": "A hammerhead shark."
+  }
+]
