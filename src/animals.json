@@ -1,22 +1,52 @@
 [
   {
-    "id": "cat",
+    "id": "Cat",
     "src": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
-    "alt": "Grey cat looking at the camera"
+    "alt": "Grey cat looking at the camera."
   },
   {
-    "id": "dog",
+    "id": "Dog",
     "src": "https://static.boredpanda.com/blog/wp-content/uploads/2018/07/dog-photographer-of-the-year-2018-winners-the-kennel-club-10-5b51978976e1c__700.jpg",
     "alt": "Small dog popping a bubble."
   },
   {
-    "id": "horse",
+    "id": "Horse",
     "src": "http://www.abc.net.au/news/image/7247492-3x4-700x933.jpg",
     "alt": "A horse in a suit."
   },
   {
-    "id": "shark",
+    "id": "Shark",
     "src": "https://img2.cgtrader.com/items/719187/5db122a57a/large/hammerhead-shark-3d-model-low-poly-animated-rigged-max.jpg",
     "alt": "A hammerhead shark."
+  },
+  {
+    "id": "Camel",
+    "src": "http://texashillcountry.com/wp-content/uploads/camel-teeth2-660x382.jpg",
+    "alt": "A happy camel."
+  },
+  {
+    "id": "Gorilla",
+    "src": "https://www.coolkidfacts.com/wp-content/uploads/2017/05/King-of-the-Jungle-556x400.jpg",
+    "alt": "King Kong."
+  },
+  {
+    "id": "Penguin",
+    "src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/13-penguin-call-1524251368.jpg",
+    "alt": "A happy penguin."
+  },
+  {
+    "id": "Bear",
+    "src": "https://defenders.org/sites/default/files/styles/homepage-feature-2015/public/grizzley-bear_jim-chagares.png?itok=WVinRHTJ",
+    "alt": "A grizzly bear with four cubs."
+  },
+  {
+    "id": "Llama",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Llama_lying_down.jpg/1200px-Llama_lying_down.jpg",
+    "alt": "A majestic llama."
+  },
+  {
+    "id": "Goat",
+    "src": "https://i.ytimg.com/vi/SIaFtAKnqBU/maxresdefault.jpg",
+    "alt": "Typical screaming goat."
   }
 ]
