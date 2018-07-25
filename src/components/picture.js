@@ -5,5 +5,6 @@ export default function Picture(props) {
     return picture.id === props.value;
   });
 
-  return <img id={animal.id} src={animal.src} alt={animal.alt} className={props.flipped ? 'flip': ''}/>;
+  return <img id={animal.id} src={animal.src} alt={animal.alt} 
+    style={{ filter: `hue-rotate(${props.hue}deg)`}} className={props.flipped ? 'flip': ''}/>;
 }
